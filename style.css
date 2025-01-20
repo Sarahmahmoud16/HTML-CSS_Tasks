@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'HankenGrotesk'; 
+    src: url('assets/fonts/HankenGrotesk-VariableFont_wght.ttf') format('truetype');  
+}
+
+body{
+    font-family:'HankenGrotesk', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 600px;
+        height: 400px;
+        border-radius: 7px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        
+}
+
+.result-card{
+    background-color: #6944ff;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.result-title{
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(206, 203, 203);
+}
+.result-degree{
+    border-width: 2px;
+    width: 120px;
+    height: 100px;
+    background-color: #5e37f7;
+    border-radius: 98px;
+    padding: 30px 20px;
+    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.score{
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.out-of{
+    font-size: 14px;
+    color: rgb(206, 203, 203);
+}
+.result-status{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.result-description{
+    font-size: 14px;
+    color: rgb(206, 203, 203);
+    width: 200px;
+    line-height: 18px;
+}
+.result-summary{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    padding: 20px 40px;
+}
+.summary-title{
+    display: grid;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(46, 53, 91);
+}
+.summary-item1,
+.summary-item2,
+.summary-item3,
+.summary-item4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 200px;
+    height: 50px;
+}
+
+.summary-item1{
+    background-color: rgb(255, 231, 231);
+}
+.summary-item2{
+    background-color: rgb(252, 252, 216);
+}
+.summary-item3{
+    background-color: rgb(235, 251, 248);
+}
+.summary-item4{
+    background-color: rgb(233, 230, 250);
+}
+
+.summary-score{
+    color: rgb(46, 53, 91);
+
+}
+
+.summary-subject1{
+    color:rgb(222, 32, 22);
+}
+.summary-subject2{
+    color:rgb(243, 197, 11);
+}
+.summary-subject3{
+    color:rgb(17, 216, 173);
+}
+
+.summary-subject4{
+    color:rgb(25, 25, 246);
+}
+
+.continue-button{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color:  rgb(46, 53, 91);
+    color: white;
+    font-size: 16px;
+    border-radius: 20px;
+}
